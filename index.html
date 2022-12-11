@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class='container'>
+        <div id='visuals'>
+            <div class='statusbar'>
+
+            </div>
+        </div>
+        <div id='ui'>
+            <div class='beigebox'>
+                <div class='whitebox'>
+                    <div class="bluebox">
+                        <div id='textArea' class="text">ROCK, PAPER,<br>AND SCISSORS</div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <div class="c-bluebox">
+                    <div class="whitebox c-whitebox">
+                        <!-- <div class="text c-text" id='player'>
+                            <div>ENTER NAME:</div>
+                            <div id='input'>
+                                <input type="text" class="text c-text" id='nameinput'>
+                                <button class='text c-text button arrow' id='okname'>OK</button>
+                            </div>
+                        </div> -->
+                        <div class='grid'>
+                            <button class="text c-text button arrow" id='newgame'>NEW GAME</button>
+                            <button data-hand='rock' class='text c-text button selection'>ROCK</button>
+                            <button data-hand='paper' class='text c-text button selection'>PAPER</button>
+                            <button data-hand='scissors' class='text c-text button selection'>SCISSORS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='rps.js'></script>
+</html>
